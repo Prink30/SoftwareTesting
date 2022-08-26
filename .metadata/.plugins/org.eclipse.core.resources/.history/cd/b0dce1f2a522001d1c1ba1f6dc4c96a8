@@ -1,0 +1,22 @@
+package Basics;
+
+public class ConsEx {
+	
+	
+	public ConsEx(int a){
+		System.out.println(a);
+		
+	}
+	
+	public void test(String sa, String sb) {
+		System.out.println(sa+sb);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ConsEx ab = new ConsEx(10);
+		ab.test("Anu", "Vini");
+	}
+
+}

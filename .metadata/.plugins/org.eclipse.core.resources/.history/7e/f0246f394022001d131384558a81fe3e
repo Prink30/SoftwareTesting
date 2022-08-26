@@ -1,0 +1,31 @@
+package Basics;
+
+public class finalexample {
+	
+	//final keyword example
+	//final int a=10
+	int a= 10;
+	
+	void display() {
+		 a++;
+		 System.out.println(a);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		finalexample a = new finalexample();
+		a.display();
+		
+		  
+		String s1="welcome to split world";  
+		System.out.println("returning words:");  
+		for(String w:s1.split("\\s",0)){  
+		System.out.println(w);  
+		} 
+		  
+	
+
+}
+
+	}

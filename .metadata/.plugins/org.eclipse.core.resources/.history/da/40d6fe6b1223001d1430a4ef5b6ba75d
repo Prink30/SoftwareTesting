@@ -1,0 +1,39 @@
+package POMEx;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class ObjectEx {
+
+	WebDriver driver;
+	ObjectEx(WebDriver driver){
+		this.driver=driver;
+	}
+	
+	
+	
+	
+By username = By.xpath("/html/body/form/input[1]");
+
+By password = By.xpath("/html/body/form/input[2]");
+
+By login =   By.xpath("/html/body/form/input[3]");
+
+
+public WebElement uname() {
+	
+	return driver.findElement(username);
+}
+
+public WebElement pname() {
+	
+	return driver.findElement(password);
+}
+
+public WebElement btn() {
+	
+	return driver.findElement(login);
+}
+
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-24T14:25:05 IST" name="Default suite" finished-at="2022-08-24T14:25:05 IST" duration-ms="40">
+    <groups>
+    </groups>
+    <test started-at="2022-08-24T14:25:05 IST" name="Default test" finished-at="2022-08-24T14:25:05 IST" duration-ms="40">
+      <class name="POMEx.Tutorial2">
+        <test-method signature="yak()[pri:-6, instance:POMEx.Tutorial2@290d210d]" started-at="2022-08-24T14:25:05 IST" name="yak" finished-at="2022-08-24T14:25:05 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yak -->
+        <test-method signature="bat()[pri:-4, instance:POMEx.Tutorial2@290d210d]" started-at="2022-08-24T14:25:05 IST" name="bat" finished-at="2022-08-24T14:25:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bat -->
+        <test-method signature="aaa()[pri:1, instance:POMEx.Tutorial2@290d210d]" started-at="2022-08-24T14:25:05 IST" name="aaa" finished-at="2022-08-24T14:25:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaa -->
+        <test-method signature="cat()[pri:2, instance:POMEx.Tutorial2@290d210d]" started-at="2022-08-24T14:25:05 IST" name="cat" finished-at="2022-08-24T14:25:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cat -->
+      </class> <!-- POMEx.Tutorial2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

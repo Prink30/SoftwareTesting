@@ -1,0 +1,32 @@
+package Basics;
+
+public class Sample {
+	
+	//No arguement Constructor
+	
+	public Sample(int a){
+		System.out.println("Staff name is " + a);
+	}
+	
+	 public Sample(){
+		
+		int a =10;
+		int b=20;
+		System.out.println(a+b);
+		
+	String S = "Vasavi Vidyalaya";
+	String T = "Lalitha";
+		System.out.println("School name is " + S);
+		System.out.println("Staff name is " + T);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Sample s1 = new Sample();
+		Sample s2 = new Sample(30);
+        
+		
+	}
+
+}

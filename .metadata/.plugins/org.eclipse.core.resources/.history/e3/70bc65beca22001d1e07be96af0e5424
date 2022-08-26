@@ -1,0 +1,25 @@
+package InheritanceExercise;
+
+public class First extends Base implements Second{
+	
+int a=20;
+	
+	
+	
+	
+	public void groundfloor() {
+		System.out.println("ground floor");
+		
+	}
+	
+	public void cricket() {
+		System.out.println("playing cricket");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		First ab = new First();
+		System.out.println(Second.a);
+	}
+
+}

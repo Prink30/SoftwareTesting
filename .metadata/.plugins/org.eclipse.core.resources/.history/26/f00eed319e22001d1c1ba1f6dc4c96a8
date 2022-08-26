@@ -1,0 +1,14 @@
+package Basics;
+
+public class ConsEx extends Sample{
+	
+	ConsEx(int a){
+		System.out.println("Staff name is " + a);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Sample s = new  ConsEx(10);
+	}
+
+}
