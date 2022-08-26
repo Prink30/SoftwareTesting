@@ -14,6 +14,7 @@ public class Cons2 extends ConsEx {
 	
   a1.sample();
   a1.data();
+  int a;
   
 	}
 
