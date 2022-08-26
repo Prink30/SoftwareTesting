@@ -12,6 +12,9 @@ public abstract class ConsEx {
 		System.out.println("data");
 	}
 	
+	void data2() {
+		System.out.println("pen");
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
