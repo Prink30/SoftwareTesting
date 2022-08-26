@@ -11,6 +11,10 @@ public class School extends Abexample1 {
   School s1 = new School();
   s1.test();
   s1.sample();
+  
+  System.out.println("school1");
+  System.out.println("school2");
+  System.out.println("school3");
 	}
 
 	
